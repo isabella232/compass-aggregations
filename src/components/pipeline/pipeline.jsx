@@ -273,7 +273,7 @@ class Pipeline extends PureComponent {
           setIsNewPipelineConfirm={this.props.setIsNewPipelineConfirm}
         />
         {this.renderCollationToolbar()}
-        <Splitter isCollationExpanded={this.props.isCollationExpanded} />
+        {/* <Splitter isCollationExpanded={this.props.isCollationExpanded} /> */}
         {this.renderModifySourceBanner()}
         <PipelineWorkspace {...this.props} />
         {this.renderSavePipeline()}
